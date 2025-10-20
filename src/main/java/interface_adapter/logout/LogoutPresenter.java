@@ -29,7 +29,7 @@ public class LogoutPresenter implements LogoutOutputBoundary {
         // We also need to set the username in the LoggedInState to
         // the empty string.
 
-        // TODO: have prepareSuccessView update the LoggedInState
+        // TODO: have prepareSuccessView update the LoggedInStategit
         // 1. get the LoggedInState out of the appropriate View Model,
         // 2. set the username in the state to the empty string
         // 3. firePropertyChanged so that the View that is listening is updated.
